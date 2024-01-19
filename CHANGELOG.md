@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.4.5](https://github.com/panva/node-oidc-provider/compare/v8.4.4...v8.4.5) (2024-01-17)
+
+
+### Refactor
+
+* use doc argument in web_message js code ([da3198b](https://github.com/panva/node-oidc-provider/commit/da3198b307ea50ff3033d9b5eaa873025494a20e))
+
+
+### Fixes
+
+* add missing opening html tags ([23997c5](https://github.com/panva/node-oidc-provider/commit/23997c5946c14a301868dabbbe43431227234adb))
+* **DPoP:** mark defaulted dpop_jkt parameter as trusted ([ee633f3](https://github.com/panva/node-oidc-provider/commit/ee633f3baa2308ec84cd02d93db737a17baf37bb))
+
+## [8.4.4](https://github.com/panva/node-oidc-provider/compare/v8.4.3...v8.4.4) (2024-01-08)
+
+
+### Refactor
+
+* test decoded basic auth tokens for their VSCHAR pattern ([3f86cc0](https://github.com/panva/node-oidc-provider/commit/3f86cc097768d83b1a4d734d0f7a7244676572b4))
+
+
+### Fixes
+
+* **DPoP,PAR,JAR:** validate DPoP before invalidating JAR during PAR ([ca0f999](https://github.com/panva/node-oidc-provider/commit/ca0f999e82ab7048b3f22a9d7798d17c7aafa405))
+
 ## [8.4.3](https://github.com/panva/node-oidc-provider/compare/v8.4.2...v8.4.3) (2023-12-14)
 
 ## [8.4.2](https://github.com/panva/node-oidc-provider/compare/v8.4.1...v8.4.2) (2023-12-02)
